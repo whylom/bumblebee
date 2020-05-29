@@ -1,0 +1,16 @@
+require 'active_support/all'
+
+require 'bumblebee/version'
+require 'bumblebee/associations'
+require 'bumblebee/http'
+require 'bumblebee/model'
+require 'bumblebee/pager'
+require 'bumblebee/relation'
+require 'bumblebee/request_error'
+require 'bumblebee/result'
+require 'bumblebee/uri'
+
+require 'bumblebee/associations/base'
+require 'bumblebee/associations/belongs_to'
+require 'bumblebee/associations/has_many'
+require 'bumblebee/associations/has_one'
